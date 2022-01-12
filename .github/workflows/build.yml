@@ -23,7 +23,6 @@ jobs:
         run: yarn install --check-files --frozen-lockfile
       - name: build
         run: npx projen build
-      - npm run build
       - id: self_mutation
         name: Find mutations
         run: >-
