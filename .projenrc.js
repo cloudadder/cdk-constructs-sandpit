@@ -13,6 +13,7 @@ const project = new awscdk.AwsCdkTypeScriptApp ({
   name: '@cloudadder/cdk-constructs-sandpit',
   release: true,
   releaseToNpm: false,
+  releaseEveryCommit: false,
 
   // cdkDependencies: undefined,  /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
   // deps: [],                    /* Runtime dependencies of this module. */
