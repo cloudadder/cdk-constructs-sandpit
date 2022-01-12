@@ -5222,10 +5222,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.50.11:
-  version "0.50.11"
-  resolved "https://registry.npmjs.org/projen/-/projen-0.50.11.tgz"
-  integrity sha512-GGJD3H4ozAGCGVB0L7HNlpQOiY/sKFKwguEMG3+75QnooDMGebBRA9TJITtBvdSgsteUO5XGSeR0hJLkTBE+IQ==
+projen@^0.48.1:
+  version "0.48.1"
+  resolved "https://registry.npmjs.org/projen/-/projen-0.48.1.tgz"
+  integrity sha512-qo8XFyYEiUd74gH8oVz0UbdVAnLGhi2LlmRN3lAYuspfhk7UQejVw6O+TqmpdKl8U1KS77eFPJIwJM+Pj/UmFw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
