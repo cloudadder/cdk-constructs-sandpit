@@ -1,6 +1,17 @@
-Use this project to test the cloudadder repositories.
+## CDK Constructs Sandpit
 
-##### cdk-ec2-imagebuilder links
+Use this project to test the [cloudadder](cloudadder.com) repositories.
+
+[![release](https://github.com/cloudadder/cdk-constructs-sandpit/actions/workflows/release.yml/badge.svg)](https://github.com/cloudadder/cdk-constructs-sandpit/actions/workflows/release.yml)
+
+#### Update the projects libraries
+```
+npm outdated
+npx npm-check-updates -u
+npm install
+```
+
+#### cdk-ec2-imagebuilder links
 * [github](https://github.com/cloudadder/cdk-ec2-imagebuilder)
 * [npmjs](https://www.npmjs.com/package/@cloudadder/cdk-ec2-imagebuilder)
 * [cdk constructs.dev](https://constructs.dev/packages/@cloudadder/cdk-ec2-imagebuilder)

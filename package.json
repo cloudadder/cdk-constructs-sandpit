@@ -31,7 +31,7 @@
     "@types/node": "^12",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "aws-cdk": "^2.4.0",
+    "aws-cdk": "^2.7.0",
     "esbuild": "^0.14.11",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.6",
@@ -41,15 +41,15 @@
     "jest-junit": "^13",
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
-    "projen": "^0.50.26",
+    "projen": "^0.50.27",
     "standard-version": "^9",
     "ts-jest": "^27.1.2",
     "ts-node": "^9",
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@cloudadder/cdk-ec2-imagebuilder": "^0.0.3",
-    "aws-cdk-lib": "^2.4.0",
+    "@cloudadder/cdk-ec2-imagebuilder": "^0.0.4",
+    "aws-cdk-lib": "^2.7.0",
     "constructs": "^10.0.5"
   },
   "license": "Apache-2.0",
