@@ -32,6 +32,7 @@ jspm_packages/
 .yarn-integrity
 .cache
 *.DS_Store
+!cdk.out/manifest.json
 !/.projenrc.js
 /test-reports/
 junit.xml
@@ -52,6 +53,6 @@ junit.xml
 !/.eslintrc.json
 /assets/
 !/cdk.json
-/cdk2.out/
+/cdk.out/
 .cdk.staging/
 .parcel-cache/

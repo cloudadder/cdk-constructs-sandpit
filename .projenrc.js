@@ -9,11 +9,11 @@ const project = new awscdk.AwsCdkTypeScriptApp ({
   deps: ['@cloudadder/cdk-ec2-imagebuilder'],
   gitignore: [
     '*.DS_Store',
+    '!cdk.out/manifest.json',
   ],
   name: '@cloudadder/cdk-constructs-sandpit',
   release: true,
   releaseToNpm: false,
-  cdkout: 'cdk2.out',
   // cdkDependencies: undefined,  /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
   // deps: [],                    /* Runtime dependencies of this module. */
   // description: undefined,      /* The description is just a string that helps people understand the purpose of the package. */
