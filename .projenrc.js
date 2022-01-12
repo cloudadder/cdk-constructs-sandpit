@@ -1,9 +1,18 @@
-const { AwsCdkTypeScriptApp } = require('projen');
-const project = new AwsCdkTypeScriptApp({
+const { AwsCdkTypeScriptApp, awscdk } = require('projen');
+const project = new awscdk.AwsCdkTypeScriptApp ({
   cdkVersion: '2.5.0',
   defaultReleaseBranch: 'main',
   dependabot: true,
+  dependabotOptions: {
+    scheduleInterval: 'weekly',
+  },
+  deps: ['@cloudadder/cdk-ec2-imagebuilder'],
+  gitignore: [
+    '*.DS_Store',
+  ],
   name: '@cloudadder/cdk-constructs-sandpit',
+  release: true,
+  releaseToNpm: true,
 
   // cdkDependencies: undefined,  /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
   // deps: [],                    /* Runtime dependencies of this module. */

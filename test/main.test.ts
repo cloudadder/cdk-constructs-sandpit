@@ -1,11 +1,22 @@
-import '@aws-cdk/assert/jest';
-import { App } from 'aws-cdk-lib';
+import {
+  App,
+} from 'aws-cdk-lib';
+import { Template } from 'aws-cdk-lib/assertions';
 import { MyStack } from '../src/main';
 
-test('Snapshot', () => {
-  const app = new App();
-  const stack = new MyStack(app, 'test');
+describe('TestCdkConstructsStack', () => {
+  test('synthesizes the way we expect', () => {
+    const myStack = new MyStack(new App(), 'TestCdkConstructsStack');
+    const template = Template.fromStack(myStack);
 
-  expect(stack).not.toHaveResource('AWS::S3::Bucket');
-  expect(app.synth().getStackArtifact(stack.artifactId).template).toMatchSnapshot();
+    template.hasResourceProperties('AWS::ImageBuilder::Component', {
+      Tags: {
+        'component-yaml-helloworld.yaml': 'applied',
+      },
+    });
+
+    template.hasResourceProperties('AWS::ImageBuilder::ImageRecipe', {
+      ParentImage: 'arn:aws:imagebuilder:ap-southeast-2:aws:image/amazon-linux-2-x86/x.x.x',
+    });
+  });
 });
