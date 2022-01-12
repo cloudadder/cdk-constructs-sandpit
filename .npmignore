@@ -21,5 +21,5 @@ dist
 tsconfig.tsbuildinfo
 /.eslintrc.json
 !/assets/
-cdk.out/
+cdk2.out/
 .cdk.staging/

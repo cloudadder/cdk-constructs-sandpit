@@ -1,0 +1,59 @@
+{
+  "version": "15.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "my-stack-dev.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "my-stack-dev.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "my-stack-dev": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://653597479456/ap-southeast-2",
+      "properties": {
+        "templateFile": "my-stack-dev.template.json",
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::653597479456:role/cdk-hnb659fds-deploy-role-653597479456-ap-southeast-2",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::653597479456:role/cdk-hnb659fds-cfn-exec-role-653597479456-ap-southeast-2",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-653597479456-ap-southeast-2/d1dd8b300f17a031632572dae5fb5a7b7575bf69154b7c84f484e541e61ac8a8.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "my-stack-dev.assets"
+        ]
+      },
+      "dependencies": [
+        "my-stack-dev.assets"
+      ],
+      "metadata": {
+        "/my-stack-dev/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/my-stack-dev/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/my-stack-dev/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "my-stack-dev"
+    }
+  }
+}
