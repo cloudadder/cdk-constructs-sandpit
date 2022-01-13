@@ -13,6 +13,7 @@ describe('TestCdkConstructsStack', () => {
       Tags: {
         'component-0': 'helloworld.yaml',
       },
+      Name: 'component-helloworld-yaml',
     });
 
     template.hasResourceProperties('AWS::ImageBuilder::ImageRecipe', {

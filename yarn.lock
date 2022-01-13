@@ -333,10 +333,10 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
-"@cloudadder/cdk-ec2-imagebuilder@^0.0.7":
-  "integrity" "sha512-mee4T/m7um+DpLme0k3Dsgq1VxcNuXV8+uc8svsxLa6o/9yT8Xu14qtpwKfZpuJ9zlUF6XHov+FBs2JLv/lICA=="
-  "resolved" "https://registry.npmjs.org/@cloudadder/cdk-ec2-imagebuilder/-/cdk-ec2-imagebuilder-0.0.7.tgz"
-  "version" "0.0.7"
+"@cloudadder/cdk-ec2-imagebuilder@^0.0.8":
+  "integrity" "sha512-y6t9Q/gLUUxbIWNj0DAe0dutL8ouLVCFbVL5jwH8ncwjr4vOV5YDbk0TrwEdDcbDtrjOjmyuOBhe+TwbUGJ9HQ=="
+  "resolved" "https://registry.npmjs.org/@cloudadder/cdk-ec2-imagebuilder/-/cdk-ec2-imagebuilder-0.0.8.tgz"
+  "version" "0.0.8"
 
 "@cspotcode/source-map-consumer@0.8.0":
   "integrity" "sha512-41qniHzTU8yAGbCp04ohlmSrZf8bkf/iJsl3V0dRGsQN/5GFfx+LbCSsCpp2gqrqjTVg/K6O8ycoV35JIwAzAg=="
