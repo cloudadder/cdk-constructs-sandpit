@@ -1,6 +1,6 @@
 const { AwsCdkTypeScriptApp, awscdk } = require('projen');
 const project = new awscdk.AwsCdkTypeScriptApp ({
-  cdkVersion: '2.7.0',
+  cdkVersion: '2.8.0',
   defaultReleaseBranch: 'main',
   dependabot: true,
   dependabotOptions: {
@@ -9,6 +9,7 @@ const project = new awscdk.AwsCdkTypeScriptApp ({
   deps: ['@cloudadder/cdk-ec2-imagebuilder'],
   gitignore: [
     '*.DS_Store',
+    '.package-lock.json',
   ],
   name: '@cloudadder/cdk-constructs-sandpit',
   release: true,
