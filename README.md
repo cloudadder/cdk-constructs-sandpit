@@ -1,6 +1,6 @@
 ## CDK Constructs Sandpit
 
-Use this project to test the [cloudadder](cloudadder.com) repositories.
+Use this project to test the [cloudadder](http://cloudadder.com/) repositories.
 
 [![release](https://github.com/cloudadder/cdk-constructs-sandpit/actions/workflows/release.yml/badge.svg)](https://github.com/cloudadder/cdk-constructs-sandpit/actions/workflows/release.yml)
 
