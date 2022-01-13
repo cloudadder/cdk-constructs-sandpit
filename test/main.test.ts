@@ -2,7 +2,7 @@ import {
   App,
 } from 'aws-cdk-lib';
 import { Template } from 'aws-cdk-lib/assertions';
-import { MyStack } from '../src/main';
+import { MyStack } from '../src/imagebuilder';
 
 describe('TestCdkConstructsStack', () => {
   test('synthesizes the way we expect', () => {

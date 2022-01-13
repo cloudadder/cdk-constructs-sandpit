@@ -9,7 +9,6 @@ const project = new awscdk.AwsCdkTypeScriptApp ({
   deps: ['@cloudadder/cdk-ec2-imagebuilder'],
   gitignore: [
     '*.DS_Store',
-    '!cdk.out/manifest.json',
   ],
   name: '@cloudadder/cdk-constructs-sandpit',
   release: true,
