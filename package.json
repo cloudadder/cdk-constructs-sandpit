@@ -41,14 +41,14 @@
     "jest-junit": "^13",
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
-    "projen": "^0.50.29",
+    "projen": "^0.50.30",
     "standard-version": "^9",
     "ts-jest": "^27.1.2",
     "ts-node": "^9",
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@cloudadder/cdk-ec2-imagebuilder": "^0.0.8",
+    "@cloudadder/cdk-ec2-imagebuilder": "^0.0.12",
     "aws-cdk-lib": "^2.8.0",
     "constructs": "^10.0.5"
   },
