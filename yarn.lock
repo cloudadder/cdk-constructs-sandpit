@@ -333,10 +333,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cloudadder/cdk-ec2-imagebuilder@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.npmjs.org/@cloudadder/cdk-ec2-imagebuilder/-/cdk-ec2-imagebuilder-0.0.15.tgz"
-  integrity sha512-k+AnIX9VVl+OJb0AXUhQOEDO6zqkY0hgQ+9i/lzjTjgaG8ZqUpkze57QaciaGlYN/UE19O+sUJ+qTyIzpMT28A==
+"@cloudadder/cdk-ec2-imagebuilder@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.npmjs.org/@cloudadder/cdk-ec2-imagebuilder/-/cdk-ec2-imagebuilder-0.0.16.tgz"
+  integrity sha512-XYK/zkvAl2MDnZuULcXi5nG9Sb/v4KcFm1q8EYKrp0IIgbi82gR6VB4PYlZ6gNk1IhanuZRRhf76MQPitzWsiQ==
   dependencies:
     cdk-ec2-key-pair "^3.0.1"
     cdk-iam-floyd "^0.305.0"

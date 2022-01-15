@@ -48,7 +48,7 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@cloudadder/cdk-ec2-imagebuilder": "^0.0.15",
+    "@cloudadder/cdk-ec2-imagebuilder": "^0.0.16",
     "aws-cdk-lib": "^2.8.0",
     "constructs": "^10.0.5"
   },
