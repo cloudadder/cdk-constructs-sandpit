@@ -19,5 +19,17 @@ describe('TestCdkConstructsStack', () => {
     template.hasResourceProperties('AWS::ImageBuilder::ImageRecipe', {
       ParentImage: 'arn:aws:imagebuilder:ap-southeast-2:aws:image/amazon-linux-2-x86/x.x.x',
     });
+
+    template.hasResourceProperties('AWS::ImageBuilder::DistributionConfiguration', {
+      Distributions: [
+        {
+          AmiDistributionConfiguration: {
+            name: 'test-ami',
+          },
+          Region: 'ap-southeast-2',
+        },
+      ],
+      Name: 'test-ami',
+    });
   });
 });
