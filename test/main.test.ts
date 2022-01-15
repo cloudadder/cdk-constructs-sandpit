@@ -24,12 +24,12 @@ describe('TestCdkConstructsStack', () => {
       Distributions: [
         {
           AmiDistributionConfiguration: {
-            name: 'test-ami',
+            name: 'test-ami-{{imagebuilder:buildDate}}',
           },
           Region: 'ap-southeast-2',
         },
       ],
-      Name: 'test-ami',
+      Name: 'test-123',
     });
   });
 });

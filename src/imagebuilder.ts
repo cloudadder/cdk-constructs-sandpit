@@ -11,6 +11,7 @@ export class MyStack extends Stack {
       parentImage: 'arn:aws:imagebuilder:ap-southeast-2:aws:image/amazon-linux-2-x86/x.x.x',
       region: 'ap-southeast-2',
       amiName: 'test-ami',
+      id: 'test-123',
       subnetId: 'subnet-12345',
       securityGroupIds: ['sg-12345'],
       version: '1.0.0',
