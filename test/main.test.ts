@@ -6,7 +6,11 @@ import { MyStack } from '../src/imagebuilder';
 
 describe('TestCdkConstructsStack', () => {
   test('synthesizes the way we expect', () => {
-    const myStack = new MyStack(new App(), 'TestCdkConstructsStack');
+    const myStack = new MyStack(new App(), 'TestCdkConstructsStack', {
+      env: {
+        region: 'ap-southeast-2',
+      },
+    });
     const template = Template.fromStack(myStack);
 
     template.hasResourceProperties('AWS::ImageBuilder::Component', {

@@ -333,10 +333,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cloudadder/cdk-ec2-imagebuilder@^0.0.16":
-  version "0.0.16"
-  resolved "https://registry.npmjs.org/@cloudadder/cdk-ec2-imagebuilder/-/cdk-ec2-imagebuilder-0.0.16.tgz"
-  integrity sha512-XYK/zkvAl2MDnZuULcXi5nG9Sb/v4KcFm1q8EYKrp0IIgbi82gR6VB4PYlZ6gNk1IhanuZRRhf76MQPitzWsiQ==
+"@cloudadder/cdk-ec2-imagebuilder@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.npmjs.org/@cloudadder/cdk-ec2-imagebuilder/-/cdk-ec2-imagebuilder-0.0.19.tgz"
+  integrity sha512-73AatVvt8WNH1hd00P7vVHKSPZKWra47mz0GFPrwl+GH6pJ76dfgNksaruboD2JTfeQp4a0M6ThZRh3OGONP5g==
   dependencies:
     cdk-ec2-key-pair "^3.0.1"
     cdk-iam-floyd "^0.305.0"
@@ -812,9 +812,9 @@
   integrity sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==
 
 "@types/node@^12":
-  version "12.20.41"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.41.tgz#81d7734c5257da9f04354bd9084a6ebbdd5198a5"
-  integrity sha512-f6xOqucbDirG7LOzedpvzjP3UTmHttRou3Mosx3vL9wr9AIQGhcPgVnqa8ihpZYnxyM1rxeNCvTyukPKZtq10Q==
+  version "12.20.42"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.42.tgz#2f021733232c2130c26f9eabbdd3bfd881774733"
+  integrity sha512-aI3/oo5DzyiI5R/xAhxxRzfZlWlsbbqdgxfTPkqu/Zt+23GXiJvMCyPJT4+xKSXOnLqoL8jJYMLTwvK2M3a5hw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -1761,9 +1761,9 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^10.0.5:
-  version "10.0.34"
-  resolved "https://registry.npmjs.org/constructs/-/constructs-10.0.34.tgz"
-  integrity sha512-Q999412/iOwASje+157vjNUmFpBr5ZMw+6RHrgezAM+4C7ITNecv3ICWayWDdN5te5ixUvUWPMmyLJbrZBZ3ag==
+  version "10.0.37"
+  resolved "https://registry.npmjs.org/constructs/-/constructs-10.0.37.tgz"
+  integrity sha512-wXtJtGpYzV8R+krlzeFpWqyndJ7zX7OLajzRTYW3bOE8bvfubiUdLbnTCienfcLz1fpvCnyTIO1b98CLBawKQw==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -4084,7 +4084,7 @@ js-tokens@^4.0.0:
 
 js-yaml@3.14.0:
   version "3.14.0"
-  resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.0.tgz"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.0.tgz#a7a34170f26a21bb162424d8adacb4113a69e482"
   integrity sha512-/4IbIeHcD9VMHFqDR/gQ7EdZdLimOvW2DdcxFjdyyZ9NsbS+ccrXqVWDtab/lRl5AlUqmpBx8EhPaWR+OtY17A==
   dependencies:
     argparse "^1.0.7"
@@ -5239,10 +5239,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.50.31:
-  version "0.50.31"
-  resolved "https://registry.npmjs.org/projen/-/projen-0.50.31.tgz"
-  integrity sha512-+v9AuMFVjoeMB57k0Tu/LneD/OUkTQoFED1SOyPkIXPLKI9C8/Cnk9IoTd6u9RBrum0ULhsty3xb+NkWKWMbVw==
+projen@^0.50.34:
+  version "0.50.34"
+  resolved "https://registry.npmjs.org/projen/-/projen-0.50.34.tgz"
+  integrity sha512-o1herymMR4LmYMkdmPh3yBY8TZtMB5HTVR5GptDFKeRKnLr1Kz9KV/ENx7TB0yy1msBQ33EmKC4/EBn+TxFzxg==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
