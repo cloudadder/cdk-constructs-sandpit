@@ -333,10 +333,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cloudadder/cdk-ec2-imagebuilder@^0.0.22":
-  version "0.0.22"
-  resolved "https://registry.npmjs.org/@cloudadder/cdk-ec2-imagebuilder/-/cdk-ec2-imagebuilder-0.0.22.tgz"
-  integrity sha512-sHAUFhozqPes9aTOI0vnPynvhQTYKMNjhDY0Ztumu2SuixB73zEHi4b2y/0juF6SU5zn6siTWupWdZWO6GcMLQ==
+"@cloudadder/cdk-ec2-imagebuilder@^0.0.25":
+  version "0.0.25"
+  resolved "https://registry.npmjs.org/@cloudadder/cdk-ec2-imagebuilder/-/cdk-ec2-imagebuilder-0.0.25.tgz"
+  integrity sha512-3HjOqhN28dVCB5LJBOXeTLUzM/9rJhKo/mP3kfJ1XPLUnTBRPXOV1G8SDGnTeDw9GCK8DKMX9XTcvbw+7xMbMA==
   dependencies:
     cdk-ec2-key-pair "^3.0.1"
     cdk-iam-floyd "^0.305.0"
@@ -1756,9 +1756,9 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^10.0.5:
-  version "10.0.37"
-  resolved "https://registry.npmjs.org/constructs/-/constructs-10.0.37.tgz"
-  integrity sha512-wXtJtGpYzV8R+krlzeFpWqyndJ7zX7OLajzRTYW3bOE8bvfubiUdLbnTCienfcLz1fpvCnyTIO1b98CLBawKQw==
+  version "10.0.38"
+  resolved "https://registry.npmjs.org/constructs/-/constructs-10.0.38.tgz"
+  integrity sha512-OwaZzyjHyGFE0GG80Z7ZU8Ym0b9G3/y59XZJSb37LVjDTWx1wP8WwkULXTXIvaYCxbJ9NBKN9Hbx14NXqHoIcw==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -5224,10 +5224,10 @@ progress@^2.0.3:
   resolved "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.51.1:
-  version "0.51.1"
-  resolved "https://registry.npmjs.org/projen/-/projen-0.51.1.tgz"
-  integrity sha512-g0An2oFjRm2Dt9z5z78V2YjtsqB1tX8Wq8aXiiiGHS7XVktjsUuMgEaIqgOrUSU775YFdC6/p9SHzNs5YCeFTw==
+projen@^0.51.4:
+  version "0.51.4"
+  resolved "https://registry.npmjs.org/projen/-/projen-0.51.4.tgz"
+  integrity sha512-WIRhC2zxqMTELq5doC2nKhkU9eEB3Hheb42NhhXOvU9YwgpSFVoZ8zuT1GhgzzKmXY9guNYpL2EF0NQ3FMwXUA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
