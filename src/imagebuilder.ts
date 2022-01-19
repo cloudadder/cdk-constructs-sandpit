@@ -8,6 +8,7 @@ export class MyStack extends Stack {
 
     new ImageBuilder(this, 'ImageBuilder', {
       componentsFolder: './src/components',
+      componentsManagedByAWS: ['arn:aws:imagebuilder:ap-southeast-2:aws:component/reboot-linux/1.0.1/1'],
       amiName: 'test-ami',
       id: 'test-123',
       subnetId: 'subnet-12345',

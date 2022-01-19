@@ -22,6 +22,19 @@ describe('TestCdkConstructsStack', () => {
 
     template.hasResourceProperties('AWS::ImageBuilder::ImageRecipe', {
       ParentImage: 'arn:aws:imagebuilder:ap-southeast-2:aws:image/amazon-linux-2-x86/x.x.x',
+      Components: [
+        {
+          ComponentArn: {
+            'Fn::GetAtt': [
+              'ImageBuilderComponenthelloworldyaml785EB055',
+              'Arn',
+            ],
+          },
+        },
+        {
+          ComponentArn: 'arn:aws:imagebuilder:ap-southeast-2:aws:component/reboot-linux/1.0.1/1',
+        },
+      ],
     });
 
     template.hasResourceProperties('AWS::ImageBuilder::DistributionConfiguration', {
